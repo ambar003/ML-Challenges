@@ -1,0 +1,10 @@
+path <- "D:\\Kaggle\\India Hacks\\Problem 2"
+setwd(path)
+train = read.csv("for_undersample.csv")
+head(train)
+library(caret)
+print(prop.table(table(train$segment)))
+library(DMwR)
+train <- SMOTE(segment ~ .,train,perc.over = 100,perc.under = 200)
+print(table(train$segment))
+fwrite(train,'smote_train.csv')
