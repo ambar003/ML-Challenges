@@ -1,6 +1,10 @@
 *.csv
 *.tsv
 *.json
+<<<<<<< HEAD
 *.zip
 *.png
 *.jpg
+=======
+*.zip
+>>>>>>> b7444cd3bc4369987e21de1b29cdd1657900693e
