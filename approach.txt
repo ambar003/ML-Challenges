@@ -1,0 +1,3 @@
+I used different models like Random Forest , XGBoost and different Other Models. I convert 2 to 0 which increase my accuracy.
+No feature Engineering
+Remove some cat feature due to very less percentage of 1.
