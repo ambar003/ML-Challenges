@@ -1,7 +1,0 @@
-xgb = XGBClassifier(learning_rate =0.01, n_estimators=1000, max_depth=6,
-                    min_child_weight=7, gamma=0.01, subsample=0.8, colsample_bytree=0.8,
-                    objective= 'binary:logistic', nthread=4, seed=2017)
-top 50 cities + top 100 titles = 0.81361
-top 100 cities + top 100 titles = 0.81358
-top 20 cities(removing unknown) + top 100 titles = 0.81384
-
